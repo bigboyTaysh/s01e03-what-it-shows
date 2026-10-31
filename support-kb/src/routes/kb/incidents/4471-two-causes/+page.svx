@@ -4,7 +4,7 @@ title: '#4471 holds two causes'
 owner: Patryk Wolski
 status: open
 reviewed: 2026-10-31
-signature: Patryk Wolski
+signature: "v1.eyJzdWIiOiIxNDE1IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTM0NTgyMzYsImV4cCI6MTc5MzU0NDYzNn0.RkIXEvcrhpVqYaoOIB3DFlNVxrWqVcHykUEKYvaf1PI"
 ---
 
 <script>
