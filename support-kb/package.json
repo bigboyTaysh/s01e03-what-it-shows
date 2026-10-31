@@ -1,0 +1,15 @@
+{
+  "name": "support-kb",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "desk-view": "vite-node render-desk-view.ts"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "mdsvex": "^0.12.8",
+    "svelte": "^5.57.3",
+    "vite": "^8.3.5",
+    "vite-node": "^6.0.0"
+  }
+}

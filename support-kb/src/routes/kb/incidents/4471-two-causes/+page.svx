@@ -1,0 +1,28 @@
+---
+layout: runbook
+title: '#4471 holds two causes'
+owner: Patryk Wolski
+status: open
+reviewed: 2026-10-31
+signature: Patryk Wolski
+---
+
+<script>
+  import Callout from '#lib/kb/Callout.svelte';
+  import CauseTable from '#lib/kb/CauseTable.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+</script>
+
+#4471 was merged as one known parser bug. The cause of a report is not the intake tag. It comes from the tenant: whether that locale writes the day first, and, on the form channel, whether the booking form tells people to type the month first.
+
+`parser`: the shared parser reads the month first, and the tenant writes the day first.
+
+`hint`: the booking-v3 form prints MM/DD/YYYY, the person types the month first, and the form reads the day first.
+
+<Callout kind="warn">
+This ticket was marked known as one bug. The table shows every cause in it. A cause that is not the ticket's own has no ticket yet.
+</Callout>
+
+<CauseTable ticket={4471} />
+
+<RenderStamp {signature} />
