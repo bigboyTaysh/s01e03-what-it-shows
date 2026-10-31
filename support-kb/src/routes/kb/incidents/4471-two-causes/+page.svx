@@ -4,7 +4,7 @@ title: '#4471 holds two causes'
 owner: Patryk Wolski
 status: open
 reviewed: 2026-10-31
-signature: "v1.eyJzdWIiOiIxNDE1IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTM0NTgyMzYsImV4cCI6MTc5MzU0NDYzNn0.RkIXEvcrhpVqYaoOIB3DFlNVxrWqVcHykUEKYvaf1PI"
+signature: "v1.eyJzdWIiOiIxNDE1IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTM0NTg1MjcsImV4cCI6MTc5MzU0NDkyN30.DqVAIG3vh-CezN5ZcjQGVPo5qCIKibTPSv7C_EXKJKE"
 ---
 
 <script>
@@ -20,11 +20,13 @@ signature: "v1.eyJzdWIiOiIxNDE1IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpY
 `hint`: the booking-v3 form prints MM/DD/YYYY, the person types the month first, and the form reads the day first.
 
 <Callout kind="warn">
-This ticket was marked known as one bug. The table shows every cause in it. A cause that is not the ticket's own has no ticket yet.
+This ticket was marked known as one bug. The table shows every cause in it.
 </Callout>
 
 <CauseTable ticket={4471} />
 
-Filed for each cause: [parser](https://github.com/bigboyTaysh/s01e03-what-it-shows/issues/1), which this ticket already owns, and [hint](https://github.com/bigboyTaysh/s01e03-what-it-shows/issues/2), which had no ticket of its own.
+Engineering closed #4471 on 5 October. `parser` was fixed: `fix(dates): parse dd/mm for eu locales`. `hint` will not be fixed: the booking-v3 form was retired.
+
+Filed for each cause: [parser](https://github.com/bigboyTaysh/s01e03-what-it-shows/issues/1) and [hint](https://github.com/bigboyTaysh/s01e03-what-it-shows/issues/2).
 
 <RenderStamp {signature} />
