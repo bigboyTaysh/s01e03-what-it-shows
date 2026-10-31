@@ -25,4 +25,6 @@ This ticket was marked known as one bug. The table shows every cause in it. A ca
 
 <CauseTable ticket={4471} />
 
+Filed for each cause: [parser](https://github.com/bigboyTaysh/s01e03-what-it-shows/issues/1), which this ticket already owns, and [hint](https://github.com/bigboyTaysh/s01e03-what-it-shows/issues/2), which had no ticket of its own.
+
 <RenderStamp {signature} />
